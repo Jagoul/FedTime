@@ -194,6 +194,7 @@ python analyze_communication.py \
 ```
 FedTime/
 ├── 📁 data_provider/           # Data loading and preprocessing
+<<<<<<< HEAD
 │   ├── data_factory.py         # Data factory for different datasets
 │   ├── data_loader.py          # Custom dataset loaders
 │   └── federated_data.py       # Federated data splitting utilities
@@ -206,6 +207,20 @@ FedTime/
 │   ├── FedTime_Framework.pdf   # Framework architecture
 │   └── LLM_Architecture.pdf    # Model architecture details
 ├── 📁 dataset/                 # Dataset storage directory
+=======
+│   ├── data_factory.py
+│   ├── data_loader.py
+│   └── federated_data.py
+├── 📁 figures
+│   ├── actual_predicted.png
+│   ├── communication_overhead.pdf
+│   ├── Forecasting_performance.pdf
+│   ├── with_clustering.pdf
+│   ├── no_clustering.pdf
+│   ├── FedTime_Framework.pdf
+│   ├── LLM_Architecture.pdf
+├── 📁 dataset/                 # Dataset storage
+>>>>>>> 765c4f9a9c49a3e1468a83733613cc091e51291c
 ├── 📁 exp/                     # Experiment runners
 │   ├── exp_basic.py           # Base experiment class
 │   └── exp_federated.py       # Federated experiment handler
