@@ -207,38 +207,41 @@ FedTime/
 │   ├── FedTime_Framework.png   # Framework architecture
 │   └── LLM_Architecture.pdf    # Model architecture details
 │   └── LLM_Architecture.png    # Model architecture details
-├── 📁 dataset/                 # Dataset storage directory
+├── 📁 data_provider/                 # Dataset storage directory
 │   ├── data_factory.py
-│   ├── data_loader.py
-├── 📁 dataset/                 # Dataset storage
+│   ├── data_provider_init.py
 ├── 📁 exp/                     # Experiment runners
 │   ├── exp_basic.py           # Base experiment class
-│   └── exp_federated.py       # Federated experiment handler
+│   └── federated_experiments.py       # Federated experiment handler
 ├── 📁 layers/                  # Model layers and components
 │   ├── Transformer_EncDec.py  # Transformer encoder/decoder
 │   ├── SelfAttention_Family.py # Attention mechanisms
+│   ├── layers_init.py # Attention mechanisms
 │   └── Embed.py               # Embedding layers
 ├── 📁 models/                  # Model implementations
 │   ├── FedTime.py             # Main FedTime model
 │   └── __init__.py            # Package initialization
 ├── 📁 scripts/                 # Training and evaluation scripts
-│   ├── FedTime/               # FedTime specific scripts
-│   │   ├── federated_training.sh  # Complete federated training
-│   │   └── centralized_baseline.sh # Centralized comparison
+│   ├── ablation_study_scripts.sh               # Ablation study
+│   ├── analyze_communications.py  # Communication Overhead
+│   ├── training_scripts.sh               # Training utilities
 │   └── download_datasets.sh   # Dataset download automation
 ├── 📁 federated/              # Federated learning components
-│   ├── client.py              # Federated client implementation
-│   ├── server.py              # Federated server with clustering
-│   ├── aggregation.py         # FedAvg, FedAdam, FedOpt
-│   └── clustering.py          # K-means clustering utilities
+│   ├── federated_client.py              # Federated client implementation
+│   ├── federated_server.py              # Federated server with clustering
+│   ├── federated_aggregation.py         # FedAvg, FedAdam, FedOpt
+│   └── clustering_component.py          # K-means clustering utilities
 ├── 📁 utils/                   # Utility functions
-│   ├── tools.py               # Training utilities and early stopping
-│   ├── metrics.py             # Evaluation metrics (MSE, MAE, etc.)
-│   └── timefeatures.py        # Time feature engineering
-├── run_longExp.py             # Main training script
-├── run_federated.py           # Federated training script
-├── requirements.txt           # Dependencies
-└── README.md                  # This file
+│   ├── utils_tools.py               # Training utilities and early stopping
+│   ├── utils_init.py               # Training utilities to initiate the script
+│   ├── utils_metrics.py             # Evaluation metrics (MSE, MAE, etc.)
+│   └── utils_timefeatures.py        # Time feature engineering
+├── 📁 main/                   # Core scripts
+|   ├── run_longExp.py             # Main training script
+|   ├── run_federated.py           # Federated training script
+├── 📁 setup/                   # Experiment Setup
+|   ├── requirements.txt           # Dependencies
+|   └── README.md                  # This file
 ```
 
 </details>
