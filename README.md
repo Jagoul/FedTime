@@ -16,7 +16,7 @@
 
 ---
 
-## 🎯 **Overview**
+##  **Overview**
 
 **FedTime** addresses critical challenges in centralized time series forecasting by introducing the **first federated learning framework** that leverages Large Language Models for **privacy-preserving**, **collaborative** time series prediction across distributed edge devices.
 
@@ -25,7 +25,7 @@
 <p><em>Figure 1: FedTime federated learning architecture with K-means clustering for EV charging stations</em></p>
 </div>
 
-### 🚀 **Key Innovations**
+###  **Key Contributions**
 
 - 🏗️ **First Federated LLM Framework** for time series forecasting
 - 🎯 **K-means Clustering** for intelligent client grouping and focused training
