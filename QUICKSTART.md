@@ -197,4 +197,4 @@ bash scripts/FedTime/federated_training.sh
 bash scripts/FedTime/ablation_study.sh
 ```
 
-Happy experimenting with FedTime! 🚀
+Happy experimenting with FedTime!
