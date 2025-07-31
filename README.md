@@ -2,15 +2,10 @@
 
 <div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2407.20503-b31b1b.svg)](https://arxiv.org/abs/2407.20503)
+[![arXiv](https://img.shields.io/badge/arXiv-2407.20503-b31b1b.svg)](https://openreview.net/pdf?id=ICobFdH8w2)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-**The First Federated Large Language Model for Privacy-Preserving Time Series Forecasting**
-
-*Raed Abdel-Sater, A. Ben Hamza*  
-*Concordia University, Montreal, Canada*
 
 </div>
 
@@ -334,36 +329,9 @@ If you find FedTime useful for your research, please cite our paper:
   author={Abdel-Sater, Raed and Ben Hamza, A},
   booktitle={ECAI 2024},
   pages={2452--2459},
-  year={2024},
-  publisher={IOS Press},
-  url={https://arxiv.org/abs/2407.20503}
+  year={2024}
 }
 ```
-
----
-
-## 👥 **Contact & Support**
-
-<div align="center">
-
-| Role | Contact | Affiliation |
-|:----:|:--------|:-----------:|
-| **Lead Author** | 📧 raed.abdelsater@mail.concordia.ca | Concordia University |
-| **Supervisor** | 📧 hamza@ciise.concordia.ca | Concordia University |
-
-**🏛️ Concordia Institute for Information Systems Engineering (CIISE)**  
-**🌍 Montreal, Quebec, Canada**
-
-</div>
-
----
-
-## 🙏 **Acknowledgments**
-
-- **💰 Funding**: Natural Sciences and Engineering Research Council of Canada (NSERC) Discovery Grant RGPIN-2024-04291
-- **🏗️ Foundation Models**: LLaMA team at Meta AI for the pre-trained language model
-- **📊 Baselines**: PatchTST authors for the foundational time series architecture
-- **🗃️ Datasets**: Contributors of ETT, Weather, Traffic, Electricity, and ACN datasets
 
 ---
 
