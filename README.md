@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FedTime: A Federated Large Language Model for Long-Term Time Series Forecasting
 
 [![arXiv](https://img.shields.io/badge/arXiv-2407.20503-b31b1b.svg)](https://arxiv.org/abs/2407.20503)
@@ -8,9 +7,8 @@
 
 This is the official PyTorch implementation of **FedTime**, a federated large language model framework for long-term time series forecasting that preserves data privacy while achieving superior performance.
 
-## 🔥 News
-- **[2024-07]** Paper accepted and available on arXiv
-- **[2024-07]** Code and experiments released
+## Paper
+- **[(https://arxiv.org/abs/2407.20503)]** Paper accepted and available on arXiv
 
 ## 📖 Abstract
 
@@ -34,7 +32,7 @@ Our key contributions include:
 | ETTm1 | LLM4TS | 0.408 | 0.419 | - |
 | ETTm1 | **FedTime** | **0.328** | **0.373** | **10.98%** ↓ |
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -246,22 +244,24 @@ python analyze_communication.py \
 2. Update server logic in `federated/server.py`
 3. Test with `run_federated.py --aggregation_method your_method`
 
-## 📚 Citation
+## Citation
 
 If you find our work useful, please cite:
 
 ```bibtex
-@article{abdel2024fedtime,
-  title={A Federated Large Language Model for Long-Term Time Series Forecasting},
-  author={Abdel-Sater, Raed and Hamza, A. Ben},
-  journal={arXiv preprint arXiv:2407.20503},
-  year={2024}
+@incollection{abdel2024federated,
+  title={A federated large language model for long-term time series forecasting},
+  author={Abdel-Sater, Raed and Ben Hamza, A},
+  booktitle={ECAI 2024},
+  pages={2452--2459},
+  year={2024},
+  publisher={IOS Press}
 }
 ```
 
 ## 📞 Contact
 
-- **Raed Abdel-Sater**: [email]
+- **Raed Abdel-Sater**: raed.abdelsater@mail.concordia.ca
 - **A. Ben Hamza**: hamza@ciise.concordia.ca
 
 ## 📄 License
@@ -283,7 +283,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 ⭐ **Star this repository if you find it helpful!**
-=======
 # FedTime : A-Federated-Large-Language-Model-for-Long-Term-Time-Series-Forecasting
 The official PyTorch implementation of "A Federated Large Language Model for Long-Term Time Series Forecasting" by Raed Abdel-Sater and A. Ben Hamza from Concordia University. The paper introduces FedTime, a novel federated learning framework that leverages Large Language Models (LLMs) for privacy-preserving, collaborative time series forecasting
->>>>>>> 3ea038f88abd25f78bb0dd9749e883c8e339bb01
