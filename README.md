@@ -101,14 +101,14 @@
 
 ---
 
-## 📞 **Communication Efficiency**
+##  **Communication Efficiency**
 
 <div align="center">
 <img src="figures/communication_overhead.png" alt="Communication Overhead Analysis" width="700"/>
 <p><em>Figure 6: Communication overhead comparison showing FedTime's superior efficiency</em></p>
 </div>
 
-### 💡 **Efficiency Metrics**
+###  **Efficiency Metrics**
 
 - **📉 80% Reduction** in communication overhead vs. full fine-tuning
 - **⚡ 3× Faster** convergence than centralized training
@@ -117,7 +117,7 @@
 
 ---
 
-## 🚀 **Quick Start**
+##  **Quick Start**
 
 ### **Installation**
 
