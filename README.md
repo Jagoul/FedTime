@@ -36,7 +36,7 @@
 
 ---
 
-## 🏆 **Performance Highlights**
+##  **Performance Highlights**
 
 <div align="center">
 <img src="figures/forecast_performance.png" alt="Performance Comparison" width="700"/>
