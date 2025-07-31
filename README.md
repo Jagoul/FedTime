@@ -134,6 +134,14 @@ FedTime/
 │   ├── data_factory.py
 │   ├── data_loader.py
 │   └── federated_data.py
+├── 📁 figures
+│   ├── actual_predicted.png
+│   ├── communication_overhead.pdf
+│   ├── Forecasting_performance.pdf
+│   ├── with_clustering.pdf
+│   ├── no_clustering.pdf
+│   ├── FedTime_Framework.pdf
+│   ├── LLM_Architecture.pdf
 ├── 📁 dataset/                 # Dataset storage
 ├── 📁 exp/                     # Experiment runners
 │   ├── exp_basic.py
