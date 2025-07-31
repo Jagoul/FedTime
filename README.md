@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Openreview](https://img.shields.io/badge/arXiv-2407.20503-b31b1b.svg)](https://openreview.net/pdf?id=ICobFdH8w2)
+[![arxiv](https://img.shields.io/badge/arXiv-2407.20503-b31b1b.svg)](https://openreview.net/pdf?id=ICobFdH8w2)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.12+-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
