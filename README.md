@@ -9,8 +9,8 @@
 
 **The First Federated Large Language Model for Privacy-Preserving Time Series Forecasting**
 
-*Raed Abdel-Sater¹, A. Ben Hamza¹*  
-¹*Concordia University, Montreal, Canada*
+*Raed Abdel-Sater, A. Ben Hamza*  
+*Concordia University, Montreal, Canada*
 
 </div>
 
