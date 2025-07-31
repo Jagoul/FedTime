@@ -147,7 +147,7 @@ ls dataset/ETT-small/
 
 ### **Training & Evaluation**
 
-#### 🔥 **Federated Training (Recommended)**
+####  **Federated Training (Recommended)**
 ```bash
 python run_federated.py \
   --is_training 1 \
@@ -400,5 +400,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ---
 
 *"Privacy-preserving collaborative intelligence for the future of time series forecasting"*
-
 </div>
