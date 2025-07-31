@@ -2,7 +2,7 @@
 
 This guide will help you get started with FedTime quickly.
 
-## 🚀 Quick Setup (5 minutes)
+## Quick Setup (5 minutes)
 
 ### Option 1: Using Docker (Recommended)
 
@@ -197,4 +197,4 @@ bash scripts/FedTime/federated_training.sh
 bash scripts/FedTime/ablation_study.sh
 ```
 
-Happy experimenting with FedTime! 🚀
+Happy experimenting with FedTime!
