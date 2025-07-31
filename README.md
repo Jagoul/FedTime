@@ -18,7 +18,7 @@
 
 ##  **Overview**
 
-**FedTime** addresses critical challenges in centralized time series forecasting by introducing the **first federated learning framework** that leverages Large Language Models for **privacy-preserving**, **collaborative** time series prediction across distributed edge devices.
+**FedTime** addresses critical challenges in centralized time series forecasting by introducing an **End-to-end federated learning framework** that leverages Large Language Models for **privacy-preserving**, **collaborative** time series prediction across distributed edge devices.
 
 <div align="center">
 <img src="figures/fedtime_framework.png" alt="FedTime Federated Framework" width="800"/>
@@ -193,34 +193,24 @@ python analyze_communication.py \
 
 ```
 FedTime/
-├── 📁 data_provider/           # Data loading and preprocessing
-<<<<<<< HEAD
-│   ├── data_factory.py         # Data factory for different datasets
-│   ├── data_loader.py          # Custom dataset loaders
-│   └── federated_data.py       # Federated data splitting utilities
 ├── 📁 figures/                 # Paper figures and visualizations
 │   ├── actual_predicted.png    # Actual vs predicted results
 │   ├── communication_overhead.pdf # Communication analysis
+│   ├── communication_overhead.png # Communication analysis
 │   ├── Forecasting_performance.pdf # Performance comparison
+│   ├── Forecasting_performance.png # Performance comparison
 │   ├── with_clustering.pdf     # Clustering impact analysis
+│   ├── with_clustering.png     # Clustering impact analysis
 │   ├── no_clustering.pdf       # No clustering baseline
+│   ├── no_clustering.png       # No clustering baseline
 │   ├── FedTime_Framework.pdf   # Framework architecture
+│   ├── FedTime_Framework.png   # Framework architecture
 │   └── LLM_Architecture.pdf    # Model architecture details
+│   └── LLM_Architecture.png    # Model architecture details
 ├── 📁 dataset/                 # Dataset storage directory
-=======
 │   ├── data_factory.py
 │   ├── data_loader.py
-│   └── federated_data.py
-├── 📁 figures
-│   ├── actual_predicted.png
-│   ├── communication_overhead.pdf
-│   ├── Forecasting_performance.pdf
-│   ├── with_clustering.pdf
-│   ├── no_clustering.pdf
-│   ├── FedTime_Framework.pdf
-│   ├── LLM_Architecture.pdf
 ├── 📁 dataset/                 # Dataset storage
->>>>>>> 765c4f9a9c49a3e1468a83733613cc091e51291c
 ├── 📁 exp/                     # Experiment runners
 │   ├── exp_basic.py           # Base experiment class
 │   └── exp_federated.py       # Federated experiment handler
