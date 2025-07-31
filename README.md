@@ -21,7 +21,7 @@
 **FedTime** addresses critical challenges in centralized time series forecasting by introducing the **first federated learning framework** that leverages Large Language Models for **privacy-preserving**, **collaborative** time series prediction across distributed edge devices.
 
 <div align="center">
-<img src="figures/federated_architecture.png" alt="FedTime Federated Architecture" width="800"/>
+<img src="figures/fedtime_framework.png" alt="FedTime Federated Framework" width="800"/>
 <p><em>Figure 1: FedTime federated learning architecture with K-means clustering for EV charging stations</em></p>
 </div>
 
@@ -39,7 +39,7 @@
 ## 🏆 **Performance Highlights**
 
 <div align="center">
-<img src="figures/performance_comparison.png" alt="Performance Comparison" width="700"/>
+<img src="figures/forecast_performance.png" alt="Performance Comparison" width="700"/>
 <p><em>Figure 2: FedTime performance across different look-back window lengths L ∈ {24, 48, 96, 192, 336, 720}</em></p>
 </div>
 
@@ -59,7 +59,7 @@
 ## 🔧 **Model Architecture**
 
 <div align="center">
-<img src="figures/model_architecture.png" alt="FedTime Model Architecture" width="750"/>
+<img src="figures/llm_architecture.png" alt="FedTime Model Architecture" width="750"/>
 <p><em>Figure 3: FedTime two-phase fine-tuning strategy with (a) Supervised fine-tuning and (b) Forecasting fine-tuning</em></p>
 </div>
 
@@ -79,7 +79,7 @@
 ### 🎯 **Ablation Study Results**
 
 <div align="center">
-<img src="figures/ablation_results.png" alt="Ablation Study Results" width="600"/>
+<img src="figures/actual_predicted.png" alt="Ablation Study Results" width="600"/>
 <p><em>Figure 4: Ablation study showing impact of different FedTime components on Caltech EV charging data</em></p>
 </div>
 
@@ -94,7 +94,7 @@
 
 | **Before Clustering** | **After Clustering** |
 |:---------------------:|:-------------------:|
-| <img src="figures/clustering_before.png" alt="Before Clustering" width="350"/> | <img src="figures/clustering_after.png" alt="After Clustering" width="350"/> |
+| <img src="figures/no_clustering.png" alt="Before Clustering" width="350"/> | <img src="figures/with_clustering.png" alt="After Clustering" width="350"/> |
 
 <p><em>Figure 5: K-means clustering visualization showing client distribution based on cluster size and performance metrics</em></p>
 </div>
