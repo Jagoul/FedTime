@@ -2,7 +2,7 @@
 
 This guide will help you get started with FedTime quickly.
 
-## 🚀 Quick Setup (5 minutes)
+## Quick Setup (5 minutes)
 
 ### Option 1: Using Docker (Recommended)
 
