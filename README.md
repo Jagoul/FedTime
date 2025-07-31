@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # FedTime: A Federated Large Language Model for Long-Term Time Series Forecasting
 
 [![arXiv](https://img.shields.io/badge/arXiv-2407.20503-b31b1b.svg)](https://arxiv.org/abs/2407.20503)
@@ -8,9 +7,8 @@
 
 This is the official PyTorch implementation of **FedTime**, a federated large language model framework for long-term time series forecasting that preserves data privacy while achieving superior performance.
 
-## 🔥 News
+## Paper
 - **[2024-07]** Paper accepted and available on arXiv
-- **[2024-07]** Code and experiments released
 
 ## 📖 Abstract
 
