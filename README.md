@@ -27,7 +27,7 @@
 
 ###  **Key Contributions**
 
-- 🏗️ **First Federated LLM Framework** for time series forecasting
+- **Federated LLM Framework** for time series forecasting
 - 🎯 **K-means Clustering** for intelligent client grouping and focused training
 - 🔧 **Parameter-Efficient Fine-tuning** (QLoRA) reducing communication by **80%**
 - 📊 **Superior Performance** with up to **20% improvement** over state-of-the-art
