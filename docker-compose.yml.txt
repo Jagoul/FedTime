@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  fedtime:
+    build: .
+    container_name: fedtime_container
+    volumes:
+      - ./dataset:/workspace/FedTime/dataset
+      - ./checkpoints:/workspace/FedTime/checkpoints
+      - ./results:/workspace/FedTime/results
+      - ./logs:/workspace/FedTime/logs
+    ports:
+      - "6006:6006"  # TensorBoard
+      - "8888:8888"  # Jupyter
+    environment:
+      - CUDA_VISIBLE_DEVICES=0
+      - PYTHONPATH=/workspace/FedTime
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    tty: true
+    stdin_open: true
+    command: bash
+
+  tensorboard:
+    build: .
+    container_name: fedtime_tensorboard
+    volumes:
+      - ./logs:/workspace/FedTime/logs
+    ports:
+      - "6007:6006"
+    command: tensorboard --logdir=/workspace/FedTime/logs --host=0.0.0.0 --port=6006
+    depends_on:
+      - fedtime
+
+  jupyter:
+    build: .
+    container_name: fedtime_jupyter
+    volumes:
+      - ./:/workspace/FedTime
+    ports:
+      - "8889:8888"
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root --NotebookApp.token=''
+    depends_on:
+      - fedtime
