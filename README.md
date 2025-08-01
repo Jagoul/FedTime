@@ -1,4 +1,4 @@
-# FedTime: A Federated Large Language Model for Long-Term Time Series Forecasting
+# FedTime: [A Federated Large Language Model for Long-Term Time Series Forecasting](https://openreview.net/pdf?id=ICobFdH8w2)
 
 <div align="center">
 
