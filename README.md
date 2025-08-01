@@ -324,7 +324,7 @@ python run_federated.py --aggregation_method your_method
 If you find FedTime useful for your research, please cite our paper:
 
 ```bibtex
-@incollection{abdel2024federated,
+@inproceedings{abdel2024federated,
   title={A federated large language model for long-term time series forecasting},
   author={Abdel-Sater, Raed and Ben Hamza, A},
   booktitle={ECAI 2024},
